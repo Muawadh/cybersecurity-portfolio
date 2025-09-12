@@ -1,0 +1,15 @@
+# system / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# secrets & env
+.env
+*.pem
+*.key
+*.ppk
+secrets.json
+
+# OS / IDE
+.vscode/
+__pycache__/
