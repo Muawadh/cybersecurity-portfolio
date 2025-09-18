@@ -1,1 +1,1 @@
-
+In the following task, I practiced analyzing a problem that happened to a company that received an Adidas attack, and using TCPdump, I covered the traffic when I was entering that website, and I received an error. I'm in the process of analyzing everything.
