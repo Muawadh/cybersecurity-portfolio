@@ -1,1 +1,1 @@
-
+This report shows how I audited and fixed file permissions in the projects folder to match the organization’s rules: I checked current settings with ls -la, removed unsafe write access (e.g., chmod o-w project_k.txt), set archived files to read-only for owner and group (e.g., chmod 440 .project_x.txt), and restricted the drafts directory to researcher2 by changing ownership and permissions (sudo chown researcher2:researcher2 drafts and chmod u=rwx,g=,o=). I verified each change with ls -la and included screenshots of the commands and outputs.
